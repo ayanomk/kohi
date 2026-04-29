@@ -19,9 +19,9 @@ export default function Home() {
             <img src="/croissant.png" alt="image of croissant" className="rounded-lg" />
           </div>
         </div>
-        <button type="button" className="block mx-auto bg-yellow-700 text-white py-3 px-4 rounded-lg my-2">View menu</button>
+        <button type="button" className="block mx-auto bg-secondary py-3 px-4 rounded-lg my-2">View menu</button>
       </section>
-      <section className="bg-lime-900 p-16 text-white my-20 text-center">
+      <section className="bg-accent p-16 text-white my-20 text-center">
         <h2 className="text-3xl mb-5">Opening Hours</h2>
         <p className="mb-3">Mon - Fri 6:00AM - 2:30PM</p>
         <p>Sat - Sun 6:30AM - 3:00PM</p>
