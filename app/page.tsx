@@ -12,10 +12,10 @@ export default function Home() {
       </section>
       <section className="my-20">
         <div className=" flex flex-col">
-          <div className="w-9/10 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-start">
+          <div className="w-11/12 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-start">
             <img src="/coffee.png" alt="image of coffee" className="rounded-lg" />
           </div>
-          <div className="w-9/10 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-end">
+          <div className="w-11/12 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-end">
             <img src="/croissant.png" alt="image of croissant" className="rounded-lg" />
           </div>
         </div>
