@@ -31,16 +31,6 @@ export default function Home() {
         <p className="mb-5">123 Street, Melbourne, VIC 3000</p>
         <img src="/mapPlaceholder.png" alt="" />
       </section>
-      <section className="mx-5 flex">
-        <div>
-          <img src="/logo_transparent.png" alt="logo of cafe kohi" className="w-1/2 rounded-md" />
-          <p>TEL: 0000 000 000</p>
-        </div>
-        <div className="flex flex-row h-1/3 self-end">
-          <div className="border px-3 rounded-2xl">i</div>
-          <div className="border px-3 rounded-2xl">f</div>
-        </div>
-      </section>
     </main>
   );
 }
