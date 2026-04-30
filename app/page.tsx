@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Card from "./components/Card";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
             <Card imgUrl="/croissant.png" imgAlt="image of croissant" />
           </div>
         </div>
-        <button type="button" className="block mx-auto bg-secondary py-3 px-4 rounded-lg my-2 md:my-10">View menu</button>
+        <Link href="/menu" className="block w-fit mx-auto mx-auto bg-secondary py-3 px-4 rounded-lg my-2 md:my-10">View menu</Link>
       </section>
       <section className="bg-accent p-16 text-white my-20 text-center md:p-24">
         <h2 className="text-3xl mb-5 md:mb-10 lg:text-4xl">Opening Hours</h2>
