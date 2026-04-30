@@ -15,9 +15,9 @@ export default function Navbar() {
     }, [])
 
     return (
-        <nav className={`fixed top-0 w-full h-14 ${isScrolled ? "bg-secondary/90" : "bg-transparent"} transition-colors duration-500`}>
+        <nav className={`fixed top-0 w-full h-16 ${isScrolled ? "bg-secondary/90" : "bg-transparent"} transition-colors duration-500`}>
             <Link href='/' className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 text-3xl p-2">KoHi</Link>
-            <Link href='/' className="absolute right-0 top-1/2 -translate-y-1/2 p-2">menu</Link>
+            <Link href='/' className="absolute right-0 top-1/2 -translate-y-1/2 p-2 mr-3 md:mr-10">menu</Link>
         </nav>
     );
 }
