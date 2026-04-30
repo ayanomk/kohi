@@ -8,11 +8,11 @@ export default function Home() {
           <img src="/hero.png" alt="image of front of kohi cafe" className="w-full h-full object-cover object-[50%_25%]" />
         </div>
       </header>
-      <section className="mt-[88px] mx-10 text-center mb-20 lg:mx-auto lg:mt-34 lg:mb-32">
+      <section className="mt-[96px] mx-10 text-center mb-20 lg:mx-auto lg:mt-32 lg:mb-32">
         <h2 className="text-3xl mb-5 lg:text-4xl lg:mb-8">your everyday <br></br>coffee and pastry</h2>
         <p className="lg:text-lg">Fuel yourself for the day or take a break you deserve with our coffee and freshly made pastries.</p>
       </section>
-      <section className="my-20 md:my-30">
+      <section className="my-20 md:my-32">
         <div className=" flex flex-col md:flex-row md:mx-5 lg:mx-auto lg:max-w-6xl">
           <div className="w-11/12 self-start md:w-1/2 md:mx-5 mb-5">
             <Card imgUrl="/coffee.png" imgAlt="image of coffee" />
