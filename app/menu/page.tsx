@@ -4,7 +4,7 @@ export default function MenuPage() {
     return (
         <main className="mt-16">
             <header>
-                <div className="relative h-80 w-full">
+                <div className="relative h-80 w-full md:h-100">
                     <img src="/menu.png" alt="image of freshly baked pastries" className="h-full w-full object-cover"/>
                     <div className="absolute bg-gray-700/70 inset-0"></div>
                     <h2 className="absolute inset-0 flex justify-center items-center text-white text-3xl">Our Menu</h2>
@@ -12,7 +12,7 @@ export default function MenuPage() {
             </header>
             <section>
                 <div className="bg-accent p-5"><p className="text-2xl text-white text-center">Food</p></div>
-                <div className="mt-5 mb-15 mx-5">
+                <div className="mt-5 mb-15 mx-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <Card imgUrl="/croissant.png" imgAlt="image of croissant" cardText="Croissant"/>
                     <Card imgUrl="/almond-croissant.png" imgAlt="image of almond croissant" cardText="Almond Croissant"/>
                     <Card imgUrl="/cinnamon-roll.png" imgAlt="image of cinnamon roll" cardText="Cinnamon Roll"/>
@@ -22,7 +22,7 @@ export default function MenuPage() {
             </section>
             <section>
                 <div className="bg-accent p-5"><p className="text-2xl text-white text-center">Drink</p></div>
-                <div className="mt-5 mb-15 mx-5">
+                <div className="mt-5 mb-15 mx-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                     <Card imgUrl="/coffee.png" imgAlt="image of coffee" cardText="Flat White, Latte, Cappuccino"/>
                     <Card imgUrl="/hot-chocolate.png" imgAlt="image of hot chocolate" cardText="Hot Chocolate"/>
                     <Card imgUrl="/tea.png" imgAlt="image of tea" cardText="Tea"/>
