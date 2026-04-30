@@ -23,7 +23,7 @@ export default function MenuPage() {
             <section>
                 <div className="bg-accent p-5 text-center text-white">Drink</div>
                 <div className="mt-5 mb-15 mx-5">
-                    <Card imgUrl="/coffee.png" imgAlt="image of coffee" cardText="Latte/Flat White/Cappuccino"/>
+                    <Card imgUrl="/coffee.png" imgAlt="image of coffee" cardText="Flat White, Latte, Cappuccino"/>
                     <Card imgUrl="/hot-chocolate.png" imgAlt="image of hot chocolate" cardText="Hot Chocolate"/>
                     <Card imgUrl="/tea.png" imgAlt="image of tea" cardText="Tea"/>
                 </div>
