@@ -1,3 +1,5 @@
+import Card from "./components/Card";
+
 export default function Home() {
   return (
     <main>
@@ -12,11 +14,11 @@ export default function Home() {
       </section>
       <section className="my-20">
         <div className=" flex flex-col">
-          <div className="w-11/12 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-start">
-            <img src="/coffee.png" alt="image of coffee" className="rounded-lg" />
+          <div className="w-11/12 self-start">
+            <Card imgUrl="/coffee.png" imgAlt="image of coffee" />
           </div>
-          <div className="w-11/12 p-4 rounded-lg shadow-md shadow-taupe-200 mb-5 self-end">
-            <img src="/croissant.png" alt="image of croissant" className="rounded-lg" />
+          <div className="w-11/12 self-end">
+            <Card imgUrl="/croissant.png" imgAlt="image of croissant" />
           </div>
         </div>
         <button type="button" className="block mx-auto bg-secondary py-3 px-4 rounded-lg my-2">View menu</button>
